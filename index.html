@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="d-flex justify-content-center bg-dark">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark  slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="10000">
+                <img src="https://www.sinefesto.com/wp-content/uploads/2014/08/sin-city1.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h5>Sin City 2 </h5>
+                    <p>Mickey Rourke , Bruce Wills , Jessica Alba , Eva Green</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://img-s2.onedio.com/id-6294d74b06ce7d7c65584eb1/rev-0/w-620/f-jpg/s-32a031ee9e164e71d5d3643de50a0fc0bc67a967.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h5>İnterstellar</h5>
+                    <p>Matthew McConaughe , Anne Hathaway , Jessica Chastain , Michael Caine </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.birgun.net/resim/haber-detay-resim/2019/12/11/quentin-tarantino-acikladi-kill-bill-3-geliyor-660063-5.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block  text-light ">
+                    <h5>Kill Bill</h5>
+                    <p>Umma Truman , Lucy Liu , David Carradine , Daryl Hannah</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">Film
+            Seçimi Yap</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+                <option class="dropdown-item" value="0">Sin City</option>
+            </li>
+            <li>
+                <option class="dropdown-item" value="0">İnterstellar</option>
+            </li>
+            <li>
+                <option class="dropdown-item" value="0">Kill Bill</option>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div class="mb-5 pb-5">
+        <div class="screen">
+            <img class="screen"
+                src="https://www.tsa.org.tr/siteuploads/news_photos/c_windowstempphp7b82tmp_main1459944606-width900.png"
+                alt="" />
+        </div>
+
+        <br>
+
+        <div class="seats">
+
+            <div class="btn-group-vertical">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+
+            </div>
+
+            <div class="btn-group-vertical me-2 ">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical ">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical me-2">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+            <div class="btn-group-vertical">
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded ">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded mt-2">&nbsp;</button>
+                <button type="button" class="seat bg-secondary rounded">&nbsp;</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="price">
+        <p class="price-amount" style="color:green"></p>
+    </div>
+    </div>
+
+    </div>
+    <script src="myScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
